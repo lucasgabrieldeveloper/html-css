@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou 
+        simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png ">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo audio em HTML5</h1>
+    <p>vamos aprender a reproduzir audio em HTML5.</p>
+    <audio src="midia/somambiente.mp3" autoplay controls></audio>
+    <p>Chance, Luck, Errors in Nature, Fate, Destruction As a Finale de Chris Zabriskie é licenciada de acordo com a licença Atribuição 4.0 da Creative Commons. https://creativecommons.org/licenses/by/4.0/
+
+        Fonte: http://chriszabriskie.com/reappear/
+        
+        Artista: http://chriszabriskie.com/</p>
+    <audio src="midia/TORSION.mp3" preload="none" controls></audio>
+</body>
+</html>
