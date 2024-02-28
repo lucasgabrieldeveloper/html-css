@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-astronauta</title>
+    <style>
+        body{
+            height: 96vh;
+            background-color: black;
+            background-image: url('imagens/espaco.jpg');
+            background-size: cover;
+        }
+        #imagem{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 15%);
+            animation: flutuar 2s ease-in-out infinite alternate;
+        }   
+
+        @keyframes flutuar {
+            0%{
+                top: 0;
+            }
+            100%{
+                top: 30px;
+            }
+        }    
+    </style>
+</head>
+<body>
+    <img src="imagens/astronauta.png" alt="..." id="imagem">
+</body>
+</html>
