@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            border: 5px solid black;
+            margin-bottom: 50px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            font-weight: bold;
+            text-align: center; /* alinhamento horizontal */
+            vertical-align: middle; /* alinhamento vertical */
+        }
+        .azul-fraco{
+            background-color: rgb(0, 0, 255);
+        }
+        .azul-forte{
+            background-color: rgb(0, 0, 162);
+        }
+        .numero{
+            text-align: right;
+        }
+        .numero1{
+            text-align: left;
+        }
+        .numero4{
+            vertical-align: top;
+        }
+        .numero5{
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr class="azul-fraco"><!-- primeira linha -->
+            <td>A1</td><!--coluna da tabela-->
+            <td class="numero4">B1</td><!--coluna da tabela-->
+            <td>C1</td><!--coluna da tabela-->
+        </tr>
+        <tr class="azul-forte"><!-- segunda linha -->
+            <td class="numero1">A2</td><!--coluna da tabela-->
+            <td>B2</td><!--coluna da tabela-->
+            <td class="numero">C2</td><!--coluna da tabela-->
+        </tr>
+        <tr class="azul-fraco"><!-- terceira linha -->
+            <td class="numero1">A3</td><!--coluna da tabela-->
+            <td>B3</td><!--coluna da tabela-->
+            <td class="numero">C3</td><!--coluna da tabela-->
+        </tr>
+        <tr class="azul-forte"><!-- quarta linha -->
+            <td>A4</td><!--coluna da tabela-->
+            <td class="numero5">B4</td><!--coluna da tabela-->
+            <td>C4</td><!--coluna da tabela-->
+        </tr>
+    </table>
+</body>
+</html>
